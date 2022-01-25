@@ -8,7 +8,7 @@ class Quadrado():
     def retornaLado(self):
         return self.tamanho
     def calculaArea(self):
-        return self.tamanho * 2
+        return self.tamanho * self.tamanho
 
 b = Quadrado(10)
 print(b.retornaLado())
