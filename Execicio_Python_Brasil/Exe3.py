@@ -16,8 +16,9 @@ class Retangulo():
         return self.Largura * self.Comprimento
 
 Larg = int(input('Qual a largura: '))
-Ret = Retangulo(1,Larg)
-print(Ret.retornaLados())
+Comp = int(input('Qual a Comprimento: '))
+Ret = Retangulo(Comp,Larg)
+print(Ret.calculaArea())
 
 
 
